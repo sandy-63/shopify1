@@ -12,5 +12,6 @@ env/
 # Pytest cache
 .pytest_cache/
 
-.idea/vcs.xml
-.idea/shopify-test1.iml
+# IDE files
+.vscode/
+.idea/
