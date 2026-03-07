@@ -25,8 +25,8 @@ shopify-automation/
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/your-username/shopify-automation.git
-cd shopify-automation
+git clone https://github.com/sandy-63/Shopify.git
+cd Shopify
 ```
 
 **2. Install dependencies**
@@ -51,10 +51,10 @@ python src/main.py
 
 Run tests and print results in terminal:
 ```bash
-python -m pytest tests/test.py -v
+python -m pytest tests/tests.py -v
 ```
 
 Run tests and save results to report.txt:
 ```bash
-python -m pytest tests/test.py -v >> report.txt
+python -m pytest tests/tests.py -v >> report.txt
 ```
