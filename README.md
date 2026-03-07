@@ -1,23 +1,60 @@
-# Shopify Automation Test
+# Shopify Automation
 
-Automated Scenario:
-Search for a product and add it to the cart successfully.
+Selenium-based automation to search a product on a Shopify store and add it to the cart.
 
-Website:
-https://adnabu-store-assignment1.myshopify.com
+---
 
-Tech Stack:
-Python
-Selenium WebDriver
-PyTest
+## Project Structure
 
-Setup Instructions
+```
+shopify-automation/
+│
+├── src/
+│   └── main.py          # automation script
+│
+├── tests/
+│   └── test.py          # test cases
+│
+├── requirements.txt     # project dependencies
+└── report.txt           # test run logs
+```
 
-1 Install Python
-2 Install dependencies
+---
 
+## Setup
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/your-username/shopify-automation.git
+cd shopify-automation
+```
+
+**2. Install dependencies**
+```bash
 pip install -r requirements.txt
+```
 
-3 Run the test
+**3. Make sure ChromeDriver is installed and matches your Chrome version**
+- Download from: https://chromedriver.chromium.org/downloads
 
-pytest tests/test_search_add_to_cart.py
+---
+
+## Running the Automation Script
+
+```bash
+python src/main.py
+```
+
+---
+
+## Running Tests
+
+Run tests and print results in terminal:
+```bash
+python -m pytest tests/test.py -v
+```
+
+Run tests and save results to report.txt:
+```bash
+python -m pytest tests/test.py -v >> report.txt
+```
